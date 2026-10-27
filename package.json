@@ -1,0 +1,43 @@
+{
+  "name": "create-node-service-starter",
+  "version": "1.0.0",
+  "description": "npm create node-service-starter my-api: a production-ready TypeScript + Express API skeleton with env validation, health checks, error handling, graceful shutdown, tests and Dockerfile.",
+  "type": "module",
+  "bin": {
+    "create-node-service-starter": "cli.js"
+  },
+  "files": [
+    "cli.js",
+    "template",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "boilerplate",
+    "starter",
+    "template",
+    "scaffold",
+    "typescript",
+    "express",
+    "create",
+    "api"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saimulhasnain-dev/create-node-service-starter.git"
+  },
+  "homepage": "https://github.com/saimulhasnain-dev/create-node-service-starter#readme",
+  "bugs": {
+    "url": "https://github.com/saimulhasnain-dev/create-node-service-starter/issues"
+  },
+  "author": "saimulhasnain-dev"
+}
